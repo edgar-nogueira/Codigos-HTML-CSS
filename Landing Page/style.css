@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+.banner { /* Configuração do content CABEÇALHO */
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('./assets/images/banner.png'); /* Efeito da imagem de fundo do banner */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px; /* Configuração do content do cabeçalho */
+    padding-top: 60px; /* Configuração do content do cabeçalho */
+    border-bottom: 1px solid #33A8DB80; /* Configuração da borda debaixo do content do cabeçalho */
+}
+.banner .banner-content { /* Configuração do content da imagem LOGO e texto */
+    color: white;
+    width: 600px; /* Configuração do content do imagem e texto */
+    margin: auto; /* Alinhar content de logo no centro */
+    text-align: center; /* Alinhar texto com a figura logo no centro */
+}
+.banner h1 { /* Configuração dos textos do HEAD */
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent; /* Efeito do título abaixo da imagem */
+    background: -webkit-linear-gradient(#33A8DB, #1472B7); /* Cor do efeito do título abaixo do logo imagem */
+    background-clip: text; /* Texto com a cor do efeito do título abaixo do logo imagem */
+    -webkit-background-clip: text; /* Texto com a cor do efeito do título abaixo do logo imagem */
+}
+.banner p { /* Configuração dos parágrafos do HEAD */
+    font-size: 1.25rem;
+    margin: 16px 0 24px; /* Margem do texto para o botão no HEAD */
+}
+.banner .logo { /* Configuração do content do LOGO do HEAD */
+    background-color: rgba(0, 0, 0, .2); /* Efeito atrás da imagem de logo CONTENT*/
+    height: 260px; /* Content do logo da imagem */
+    width: 260px; /* Content do logo da imagem */
+    margin: auto; /* Alinhar figura de logo no centro CONTENT*/
+    border-radius: 50%; /* Fazer círculo de trás do efeito da logo no centro CONTENT */
+    padding: 16px; /* Padding da logo no centro */
+    margin-bottom: 16px;
+}
+.banner .logo img { /* Configurar tamanho do LOGO HEAD */
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Tamanho da logo dentro do container */
+} 
+.banner .banner-content button { /* Configurar Botão HEAD */
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px; /* Padding do texto de dentro Botão HEAD */
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent; /* Efeito do Botão e borda do HEAD */
+    border-image: linear-gradient(#3BA1CD, #1572B7); /* Efeito do Botão e borda do HEAD */
+    border-image-slice: 10; /* Efeito do Botão e borda do HEAD */
+    border-radius: 30px;
+}  
+p {
+    color: white;
+}
+section {
+    margin: 100px auto; /* Margem entre os ítens SECTION */
+}
+h2 { 
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px; /* Margem para o ítem debaixo */
+}
+#course-content { /* Configuração do container e alinhamento de texto MAIN */
+    width: 800px;
+    text-align: center;
+}
+#course-content .modules-list { /* Configuração do container MAIN Botões*/
+    margin: 24px 0;
+}
+#course-content .modules-list .module { /* Configuração dos ítens dos Botões MAIN*/
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px; /* Margem dos ítens dos Botões*/
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px; /* Padding do texto de dentro dos Botões MAIN */
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7); /* Sombra de dentro dos Botões MAIN */
+}
+#course-content .modules-list .module span {
+    color: #33A8DB;
+}
+#transform-world { /* Configuração do container e imagem da mulher no MAIN*/
+    height: 560px;
+    background-size: cover;
+    background-image: url("/assets/images/woman-code.png");
+    background-attachment: fixed; /* Deixar a imagem da mulher do background fixa no MAIN*/
+    border-top: 1px solid #33A8DB80; /* Borda no topo do container no MAIN*/
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px; /* Padding do texto para o container no MAIN */
+}
+#transform-world p { /* Configuração do texto da imagem da mulher no MAIN*/
+    font-weight: 900; /* Corpo da fonte, aumentando no MAIN*/
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px; /* Máximo de width do container do texto no MAIN*/
+    text-shadow: 3px 2px #33A8DB; /* Efeito de sombra no texto da imagem  no MAIN*/
+}
+#professional-challenges { /* Configuração do texto da última imagem no MAIN*/
+    text-align: center;
+    width: 800px;
+}
+#professional-challenges img { /* Configuração da última imagem no MAIN*/
+    margin: 32px 0;
+}
+footer { /* Configuração do texto e container do FOOTER*/
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2)); /* Efeito de fundo do background no container FOOTER*/
+    border-top: 1px solid #33A8DB80;
+}
+footer .dio-logo {
+    width: 300px;
+}
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+}

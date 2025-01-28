@@ -1,0 +1,107 @@
+/* HEADER */
+
+@media screen and (max-width: 1045px){
+    .header-content {
+        height: 31.56rem;
+    }
+    .header-content-principal{
+        width: 26.75rem;
+        height: 22.87rem;
+        padding: 7rem 1rem 0;
+        gap: 0.81rem;
+    }
+    .header-content-principal h1{
+        width: 17.37rem;
+        height: 4rem;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+    .header-content-principal p {
+        width: 23.81rem;
+        height: 8.25rem;
+        font-size: 1rem;
+        padding-left: 1.4rem;
+        padding-right: 1rem;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    .details-header{
+        width: 23.81rem;
+        height: 7.62rem;
+    }
+    .details-header #button-one, .details-header #button-two {
+        margin-top: 1rem;
+        width: 17.56rem;
+        height: 3.37rem; 
+    }
+
+    /* MAIN CONTENT FIRST*/
+
+    .main-content-first {
+        display: flex;
+        flex-direction: column;
+        height: 35.81rem; 
+    }
+    .main-content-first .image-one, .main-content-second .image-two, .main-content-third .image-three {
+        width: 23.68rem;
+        height: 15.75rem;
+    }
+    .text-one h2 {
+        font-size: 1.5rem;
+        line-height: 2.04rem;
+        height: 6.18rem;
+        margin-bottom: 1.68rem;
+    }
+
+    /* MAIN CONTENT SECOND*/
+
+    .main-content-second {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 31.68rem;
+    }
+    .text-two h2, .text-three h2 {
+        height: 2.06rem;
+        font-size: 1.5rem;
+        line-height: 2.04rem;
+    }
+
+    /* MAIN CONTENT THIRD*/
+
+    .main-content-third {
+        display: flex;
+        flex-direction: column;
+        height: 31.68rem;
+    }
+
+    /* MAIN CONTENT FOURTH*/
+
+    .main-content-fourth{
+        height: 35rem;
+    }
+    .main-content-fourth .image-four {
+        width: 22rem;
+        height: 15.75rem;
+    }
+    .text-four h2 {
+        width: 23.5rem;
+        height: 4rem;
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-bottom: 1.68rem;
+        padding: 0;
+    }
+    .text-four p {
+        height: 6.87rem;
+        width: 23.62rem;
+        font-size: 1rem;
+    }
+
+    @media screen and (min-width: 750px) and (max-width: 900px){
+        .header-content-principal{
+            padding-left: 26rem;
+        }
+    }
+}

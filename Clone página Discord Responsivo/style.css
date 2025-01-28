@@ -1,0 +1,200 @@
+/* HEADER */
+
+.header-content {
+    height: 28.68rem;
+    background-image: url(/img/Background\ Header.png);
+    background-size: cover;
+}
+.header-content-principal{
+    width: 47.31rem;
+    height: 16.87rem;
+    padding-top: 10rem; 
+    padding-left: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.header-content-principal h1{
+    width: 19.53rem;
+    height: 7rem;
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header-content-principal p {
+    width: 47.31rem;
+    height: 4.12rem;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.36rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.details-header{
+    width: 32rem;
+    height: 2.75rem;
+    text-align: center;
+}
+.details-header #button-one {
+    width: 12.81rem;
+    height: 2.75rem;
+    border-radius: 1.75rem;
+    border-style: none;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.36rem;
+    text-align: center;
+    margin-right: 1rem;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.details-header #button-two {
+    width: 17.56rem;
+    height: 2.75rem;
+    border-radius: 1.75rem;
+    border-style: none;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.36rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* MAIN */
+
+.main-content-first {
+    height: 27.12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.55rem;
+    padding-left: 9.62rem;
+    padding-right: 9.62rem;
+    gap: 1rem;
+}
+.main-content-first .image-one, .main-content-second .image-two, main-content-third .image-three {
+    width: 37.93rem;
+    height: 24.62rem;
+    padding-right: 1rem;
+}
+.main-content-first .text-one {
+    width: 21.75rem;
+    height: 23.74rem;
+}
+.text-one h2 {
+    width: 20.56rem;
+    height: 16.87rem;
+    padding-top: 0.62rem;
+    font-family: "Open Sans", serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3.40rem;
+}
+.text-one p, .text-two p {
+    width: 21.75rem;
+    height: 5.5rem;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.36 rem;
+    padding-top: 1rem;
+}
+.main-content-second {
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.55rem;
+    padding-left: 9.62rem;
+    padding-right: 9.62rem;
+    gap: 1rem;
+    background-color: #F6F6F6;
+}
+.main-content-second .text-two{
+    width: 21.93rem;
+    height: 13.25rem;
+}
+.text-two h2, .text-three h2 {
+    width: 20.56rem;
+    height: 6.75rem;
+    padding-top: 0.62rem;
+    font-family: "Open Sans", serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3.40rem;
+}
+.main-content-third {
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.55rem;
+    padding-left: 9.62rem;
+    padding-right: 9.62rem;
+    gap: 1rem;
+}
+.main-content-third .text-three{
+    width: 21.93rem;
+    height: 14.62rem;
+}
+.text-three p {
+width: 21.75rem;
+height: 6.87rem;
+font-family: "Open Sans", serif;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.36 rem;
+padding-top: 1.5rem;
+}
+.main-content-fourth{
+    height: 46.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.55rem;
+    padding-left: 10rem;
+    padding-right: 9.62rem;
+    gap: 1rem;
+    background-color: #F6F6F6;
+}
+.text-four h2 {
+    width: 40rem;
+    height: 5rem;
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    padding-left: 9rem;
+}
+.text-four p {
+    width: 50.12rem;
+    height: 2.75rem;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.36rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.main-content-fourth .image-four {
+    width: 49rem;
+    height: 31.75rem;
+}
+footer {
+    height: 8.00rem;
+    background-color: #23272A;
+    padding: 2.90rem;
+    text-align: center;
+}

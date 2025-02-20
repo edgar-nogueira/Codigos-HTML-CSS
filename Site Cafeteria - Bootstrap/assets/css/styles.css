@@ -1,0 +1,38 @@
+:root {
+    --bs-link-color:#198754;
+    --bs-link-hover-color:#146c43;
+}
+.btn {
+    --bs-btn-bg: #198754;
+    --bs-btn-border-color: #146c43;
+    --bs-btn-hover-bg: #146c43;
+    --bs-btn-hover-border-color: #146c43;
+    --bs-btn-active-bg: #0c5734;
+}
+main {
+    margin-top: 5rem;
+}
+section {
+    scroll-margin-top: 6rem;
+}
+.navbar-brand img {
+    width: 3.12rem;
+}
+
+/* TAMANHO DO CARROSSEL */
+
+.carousel-item img {
+    height: 31.25rem;
+    object-fit: cover;
+}
+.carousel-item::before { /* Aqui ele faz um efeito em degradê no CARROSSEL começando do transparente para o preto, de cima para baixo */
+    content: ""; /* Aqui ele cria um conteúdo vazio para que o degradê funcione*/
+    width: 100%; /* Aqui ele ocupa toda a largura da DIV que é o CARROSSEL*/
+    height: 100%; /* Aqui ele ocupa toda a altura da DIV que é o CARROSSEL*/
+    background: linear-gradient(transparent, rgb(31, 31, 31)); /* Aqui ele cria um degradê do transparente para o preto*/
+    position: absolute; /* Aqui ele deixa a posição absoluta para que o degradê fique por cima da imagem*/
+}
+.card-menu img {
+    height: 18.75rem;
+    object-fit: cover;
+}
